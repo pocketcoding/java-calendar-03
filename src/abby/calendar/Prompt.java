@@ -21,7 +21,7 @@ public class Prompt {
 			if(month == -1) { break; }
 			if(month > 12) { continue; }
 			
-			System.out.printf("The maximum dates of the month %d is %d \n", month, cal.getMaxdaysOfMonth(month));
+			cal.printCalendar(2020, month);
 
 		}
 
